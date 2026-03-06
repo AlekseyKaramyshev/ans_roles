@@ -30,3 +30,12 @@ https://github.com/AlekseyKaramyshev/lighthouse/releases/tag/v1.0.0
 <img width="1206" height="597" alt="ans4_2" src="https://github.com/user-attachments/assets/255ec02e-2fac-45b4-ba07-1a0c51ba0496" />
 
 <img width="1206" height="597" alt="ans4_3" src="https://github.com/user-attachments/assets/51168945-ad20-49e9-99d3-ca1f4a9925c5" />
+
+**P.S.**
+
+Представлены 3 roles вместо 2х, role **clickhouse** из примера ДЗ отсутствует из-за
+```
+TASK [clickhouse : Install by APT | Package installation] ******************************************************************************************************************************
+fatal: [clickhouse-01]: FAILED! => {"changed": false, "msg": "No package matching 'clickhouse-common-static' is available"}
+```
+просто перенёс свою согласно tasks общего playbook из предыдущего задания. 

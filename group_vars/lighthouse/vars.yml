@@ -1,0 +1,4 @@
+---
+lighthouse_dir: /var/www/html/lighthouse
+lighthouse_git_repo: https://github.com/VKCOM/lighthouse.git
+lighthouse_branch: master
